@@ -96,8 +96,11 @@ The following analyses were performed on the Gold Layer:
 ```text
 project/
 │
+├── Docs/
+│   └── star_schema.jpeg
+│
 ├── Gold Layer/
-│   ├── ddl_gold.sql
+│   └── ddl_gold.sql
 │
 ├── Exploratory Data Analysis/
 │   └── eda.sql
