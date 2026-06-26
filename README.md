@@ -1,12 +1,10 @@
-# data-analysis-full-project-under-progress-
+# data-analysis-full-project
 
 ## Overview
 
-This project focuses on building the Gold Layer of a Data Warehouse and performing Exploratory Data Analysis (EDA) to prepare data for business reporting and analytics.
+This project demonstrates an end-to-end Business Intelligence solution, starting from building the Gold Layer of a Data Warehouse, performing Exploratory Data Analysis (EDA), and developing an interactive Power BI dashboard for business reporting and decision-making.
 
-The Gold Layer was designed using a Star Schema model, providing clean and business-ready datasets that can be directly consumed by BI tools.
-
-The next phase of the project is building an interactive Power BI dashboard based on the analytical model.
+The Gold Layer was designed using a Star Schema model to provide clean, business-ready datasets optimized for analytical queries and reporting.
 
 ---
 
@@ -91,19 +89,64 @@ The following analyses were performed on the Gold Layer:
 
 ---
 
+## Power BI Dashboard
+
+An interactive Power BI dashboard was developed using the Gold Layer to transform business data into actionable insights through advanced analytics and dynamic visualizations.
+
+### Dashboard Features
+
+#### Executive Overview
+
+* KPI Cards
+* Total Sales
+* Total Orders
+* Total Customers
+* Total Customers Who Ordered
+* Total Quantity Sold
+* Average Order Value
+
+#### Sales Analysis
+
+* Year-over-Year (YoY) Sales Analysis
+* Monthly Sales Trends
+* Sales Performance by Country
+* Sales Performance by Category
+* Sales Performance by Subcategory
+
+#### Customer Analysis
+
+* Customer Segmentation
+* Customer Distribution Analysis
+* Customer Purchase Insights
+
+#### Advanced Analytics
+
+* Dynamic Visual Switching using Field Parameters
+* Why Analysis for identifying sales decline
+* Interactive Country Filtering using SVG Flags
+* Drill-through Navigation
+* Custom Tooltips
+* Dynamic Slicers
+
+---
+
 ## Repository Structure
 
 ```text
 project/
 │
 ├── Docs/
-│   └── star_schema.jpeg
+│   ├── star_schema.jpeg
+│   └── dashboard.png
 │
 ├── Gold Layer/
 │   └── ddl_gold.sql
 │
 ├── Exploratory Data Analysis/
 │   └── eda.sql
+│
+├── Power BI Dashboard/
+│   └── Sales Dashboard.pbix
 │
 └── README.md
 ```
@@ -112,38 +155,36 @@ project/
 
 ## Technologies Used
 
-* SQL
+* SQL Server
 * Databricks SQL
+* Power BI
+* DAX
 * Data Modeling
 * Star Schema
+* Data Warehousing
 * Data Analysis
-* Git & GitHub
-* Power BI (In Progress)
-
----
-
-## Upcoming Phase
-
-Power BI Dashboard Development
-
-Planned dashboard features:
-
-* Executive Sales Overview
-* Product Performance Analysis
-* Customer Insights
-* Geographic Analysis
-* KPI Monitoring
-* Sales Trends Analysis
+* GitHub
 
 ---
 
 ## Key Skills Demonstrated
 
+* Data Warehousing
 * Dimensional Modeling
 * Star Schema Design
-* Data Warehousing Concepts
 * SQL Analytics
 * Exploratory Data Analysis (EDA)
 * Business Metrics Development
 * Databricks SQL
+* Power BI Dashboard Development
+* DAX
+* KPI Design
+* Year-over-Year (YoY) Analysis
+* Customer Segmentation
+* Field Parameters
+* Why Analysis
+* What-IF Analysis
+* Interactive Dashboard Design
+* Business Intelligence Reporting
+* Data Visualization
 * Data Preparation for BI Reporting
