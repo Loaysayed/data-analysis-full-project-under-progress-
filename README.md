@@ -101,7 +101,6 @@ An interactive Power BI dashboard was developed using the Gold Layer to transfor
 * Total Sales
 * Total Orders
 * Total Customers
-* Total Customers Who Ordered
 * Total Quantity Sold
 * Average Order Value
 
