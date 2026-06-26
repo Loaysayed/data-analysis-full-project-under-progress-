@@ -145,8 +145,8 @@ project/
 │   └── eda.sql
 │
 ├── Power BI Dashboard/
-│   ├── Overview.png
 │   ├── Cohort & Why Analysis.png
+│   ├── Overview.png
 │   └── Sales Dashboard.pbix
 │
 └── README.md
